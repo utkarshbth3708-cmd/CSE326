@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+//arithmetic operators
+let a=60;
+let b=90;
+console.log(a+b, a-b, a*b, a/b, a%b, a++, ++a, a--, --a);
+
+
+
+let x=10;
+let y= ++x;
+console.log(x);
+console.log(y);
+
+let f=10;
+let d= x++;
+console.log(x);
+
+//assignment operators
+let p=10;
+let r= 20;
+console.log(p+=r, p-=r, p*=r, p/=r, p%=r);
+
+//comparison operators
+let m= 10;
+let n= 20;
+console.log(m==n, m!=n, m>n, m<n, m>=n, m<=n, m===n, m!==n);
+
+
+//logical operators
+let t= true;
+let u= false;
+console.log(t&&u, t||u, !t, !u);
+
+let q1 =3;
+let q2 =5;
+console.log(q1>q2) && (q1==q2);
+
+//branching statements
+let marks= 90;
+if (marks>=90){
+    console.log("elite batch");
+} else if (marks>=75) {
+    console.log("intermediate batch");
+} else if (marks>=60) {
+    console.log("regular batch");
+} else {
+    console.log("fail");
+    }
+
+//looping statements
+for(i=3; i<=15; i++){
+    console.log(i); }
+
+let j=5;
+while(j<=10){ if (j==6){continue;}
+    console.log(j); j++;
+}
+
+let k=10;
+do {
+    console.log(k);
+    k++;
+} while (k <= 20);
+
+//implicit and explicit type convertion
+let age = "5"
+console.log(5+age);
+console.log("5" + 6);//implicit
+console.log('5' - 3);
+console.log(number("5")+5);//explicit
+console.log(praseInt("12.45hh"));
+
+    </script>
+</body>
+</html>
